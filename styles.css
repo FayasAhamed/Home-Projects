@@ -16,3 +16,7 @@ h1::before {
     display: block;
     background-color: red;
 }
+
+.search-box__wrapper label {
+    margin-right: 0.5rem;
+}
