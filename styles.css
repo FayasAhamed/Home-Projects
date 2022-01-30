@@ -1,0 +1,18 @@
+h1 {
+    background-color: burlywood;
+    color: cornflowerblue;
+}
+
+h1::after {
+    content: '';
+    height: 2px;
+    display: block;
+    background-color: crimson;
+}
+
+h1::before {
+    content: '';
+    height: 2px;
+    display: block;
+    background-color: red;
+}
